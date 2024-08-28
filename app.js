@@ -52,7 +52,7 @@ app.use(express.static("./"));
 
 app.use(
   cors({
-    origin: ["https://pf201blog-liard.vercel.app/"],
+    origin: ["*"],
     credentials: true,
   })
 );
